@@ -31,3 +31,4 @@ Screeshots for Reference
 ![Screenshot 2022-08-21 at 10-10-12 Launch an instance EC2 Management Console](https://user-images.githubusercontent.com/98376417/185775821-870a4cf1-a344-4fab-b6f1-9b4c4e36a3b4.png)
 ![Screenshot 2022-08-21 at 10-12-20 Launch an instance EC2 Management Console](https://user-images.githubusercontent.com/98376417/185775858-be950530-43b8-4e6c-8a5c-5bedf40c2508.png)
 
+![Screenshot 2022-08-21 at 10-14-05 Launch an instance EC2 Management Console](https://user-images.githubusercontent.com/98376417/185775907-fc438a3e-a931-419e-aeea-fde3025ce2ba.png)
