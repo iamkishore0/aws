@@ -26,3 +26,4 @@ Fill the required details as below
     Configure storage
         Default values
 Click on 'Launch Instance' - Which is at Mid right side
+![Screenshot 2022-08-21 at 10-10-12 Launch an instance EC2 Management Console](https://user-images.githubusercontent.com/98376417/185775821-870a4cf1-a344-4fab-b6f1-9b4c4e36a3b4.png)
