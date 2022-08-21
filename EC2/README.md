@@ -1,7 +1,7 @@
 
 ## Create EC2 Instance 
 
-'Login to AWS Management Console' click on 'Services' which is on the top left
+Login to 'AWS Management Console' click on 'Services' which is on the top left
 
 Search for 'EC2' in the search tab and click on 'EC2 - Virtual servers in the cloud'
 
