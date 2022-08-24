@@ -33,8 +33,7 @@
 ## Click on 'Next:Configure security Group'
 ![ss9](https://user-images.githubusercontent.com/98376417/186072852-3c58bd91-50f7-4622-bfd8-4e8618aaabf4.png)
 
-## PuttyGen - https://puttygen.en.softonic.com/
-## Putty https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
 
 
 ## Select 'Create a new security group', Give security group name 'my_first_server' and Description 'my_first_server' and click in 'Review and Launch'
@@ -53,4 +52,5 @@
 ![ss13](https://user-images.githubusercontent.com/98376417/186072925-8f0072fc-5ba4-4d3a-851d-8ae14b2cc437.png)
 
 
-
+## PuttyGen - https://puttygen.en.softonic.com/
+## Putty https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
