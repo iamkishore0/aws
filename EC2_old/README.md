@@ -52,5 +52,5 @@
 ![ss13](https://user-images.githubusercontent.com/98376417/186072925-8f0072fc-5ba4-4d3a-851d-8ae14b2cc437.png)
 
 
-## PuttyGen - https://puttygen.en.softonic.com/
+
 ## Putty https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
