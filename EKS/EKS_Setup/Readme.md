@@ -1,5 +1,5 @@
 ## Step1 
-Create IAM Roles and Attach that an EC2 Instance
+Create IAM Roles and Attach that role to an EC2 Instance
 
 ## Step2
 Install the awscli 
