@@ -7,7 +7,7 @@
     --nodes 2'
 
 ## Check created nodes
-    'kubectl get' 
+    'kubectl get nodes' 
     
 ## Check Default pods
     'kubectl get pods -n kube-system'
