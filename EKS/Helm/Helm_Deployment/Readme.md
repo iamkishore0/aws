@@ -12,29 +12,29 @@
      
 ## Check helm list 
 
-    helm list
+     helm list
     
     
 ## Check pods
  
-   kubectl get pods
+     kubectl get pods
    
    
 ## Check services
 
-   kubectl get svc
+     kubectl get svc
    
    
 ## Check Volumes
 
-   kubectl get pvc
+     kubectl get pvc
    
    
 ## Check config maps
    
-   kubectl get config maps
+     kubectl get config maps
    
    
 ## Uninstall deployment
 
-   helm uninstall <Deployment_name>
+     helm uninstall <Deployment_name>
