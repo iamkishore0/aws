@@ -13,3 +13,15 @@
 ## Search for particular package
 
     helm search repo <package_name>  eg: helm search repo mysql, helm search repo nginx
+
+## Pull a helm package for modification
+    
+    helm pull <package_name>
+    
+## untar downloaded package
+    
+    untar -xvzf <package_name>
+    
+## pack the modified package 
+ 
+    helm package <folder_name>
