@@ -14,21 +14,26 @@
 
     helm list
     
+    
 ## Check pods
  
    kubectl get pods
+   
    
 ## Check services
 
    kubectl get svc
    
+   
 ## Check Volumes
 
    kubectl get pvc
    
+   
 ## Check config maps
    
    kubectl get config maps
+   
    
 ## Uninstall deployment
 
