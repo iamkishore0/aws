@@ -11,3 +11,6 @@
     
 ## Check Default pods
     'kubectl get pods -n kube-system'
+
+## Delete Cluster
+    'kubectl delete cluster <cluser_name> <cluster_region>'
