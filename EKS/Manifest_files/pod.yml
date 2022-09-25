@@ -5,7 +5,7 @@ metadata:                         #provide data
   labels:                         #label information for services.yml
     app: my-first-pod             #name for recognizing pod
     
-spec:                             #specifications for creating container
+spec:                             #specifications
   containers:                     #mention container for container creation
     - name: my-nginx              #name of the container
       image: nginx                #name of the image, which is at docker hub
