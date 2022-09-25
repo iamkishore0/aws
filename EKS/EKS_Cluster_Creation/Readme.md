@@ -10,7 +10,11 @@
     'kubectl get nodes' 
     
 ## Check Default pods
-    'kubectl get pods -n kube-system'
+    'kubectl get pods -n kube-system' or 'kubectl get po'
+    
+## Run a httpd service in pod
+     'kubectl run <name_for_pod> <image_name>
+        'kubectl run httpd --image=httpd'
 
 ## Delete Cluster
     'kubectl delete cluster <cluser_name> <cluster_region>'
