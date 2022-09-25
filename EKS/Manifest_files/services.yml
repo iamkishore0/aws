@@ -1,0 +1,14 @@
+apiVersion: v1                        #api_version
+kind: Service                         #mention kind as pod or service or replicaset etc
+metadata:                             #provide data
+  name:                               #name of the service
+
+spec:                                 #specifications
+  ports:                              #mention port as specification, exposing port to external network
+  - name: my-port                     #port name
+    port: 80                          #port number
+    
+  selector:                           #selector will redirect request to specified pod
+    app: my-first-pod                 #give the name which is given in pod.yml under labels
+    
+  type: LoadBalancer                  #mention the service type as load balancer
