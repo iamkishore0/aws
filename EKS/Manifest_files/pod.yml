@@ -1,0 +1,14 @@
+apiVersion: v1                    #version of api
+kind: Pod                         #mention kind pod or service or replicaset etc
+metadata:                         #provide data
+  name: my-first-pod              #name of the pod
+  labels:                         #label information for services.yml
+    app: my-first-pod             #name for recognizing pod
+    
+spec:                             #specifications for creating container
+  containers:                     #mention container for container creation
+    - name: my-nginx              #name of the container
+      image: nginx                #name of the image, which is at docker hub
+      ports:                      #container internal port
+        - name: my-nginx          #port name
+          containerPort: 80       #container port number
