@@ -1,3 +1,6 @@
+
+Create IAM role and Assign that Role to ec2 instance where kubectl got installed
+
 ## Create an EKS cluster with 2 nodes & instance type - t2.micro
     'eksctl create cluster \
     --name my-cluster \
