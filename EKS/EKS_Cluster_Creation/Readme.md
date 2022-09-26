@@ -20,4 +20,4 @@
         'kubectl run httpd --image=httpd'
 
 ## Delete Cluster
-    'kubectl delete cluster <cluser_name> <cluster_region>'
+    eksctl delete cluster --name <cluster_name> --region <cluster_region>
