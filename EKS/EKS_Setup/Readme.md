@@ -17,3 +17,8 @@ Install kubectl
    
 ## Check kubectl version
   'kubectl version'
+
+
+## Step4
+  Install eksctl
+  https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
