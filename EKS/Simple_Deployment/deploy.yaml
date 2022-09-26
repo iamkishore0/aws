@@ -1,0 +1,29 @@
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: my-app
+  labels: 
+     app: myapp
+
+spec:
+  replicas: 2 
+  selector:
+    matchLabels:
+      app: myapp
+
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: sample-tomcat
+        image: tomcat:8.5.75
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
