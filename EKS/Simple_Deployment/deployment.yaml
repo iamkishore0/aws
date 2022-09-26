@@ -18,7 +18,7 @@ spec:                                         #specifications
     spec:
        containers:
        - name: my-webapp
-         image: kishore/webapp                #Name of the image in docker hub
+         image: tomcat:8.5.75                 #Name of the image in docker hub
          imagePullPolicy: Always
          ports:
          - containerPort: 8080
