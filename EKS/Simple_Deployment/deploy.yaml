@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: sample-tomcat
-        image: tomcat:8.5.75
+        image: tomee
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
