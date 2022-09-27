@@ -10,43 +10,43 @@ metadata:                                     #provide data
 spec:                                         #specifications
   replicas: 2                                 #replicaset count, each replica will create 1 pod
   selector:                                   
-    matchLabels:                              #for matching with deployment name
+    matchLabels:                              #for matching with label name
       app: webapp                             #name of the lable
   
   template:                                   #A Template to create container
     metadata:
       labels:
         apps: webapp
-    spec:
-       containers:
-       - name: my-webapp
-         image: tomcat:8.5.75                 #Name of the image in docker hub
-         imagePullPolicy: Always
-         ports:
-         - containerPort: 8080
+    spec:                                     #Specifications
+       containers:                            #Mention as container
+       - name: my-webapp                      #Container name
+         image: tomee                         #Name of the image in docker hub
+         imagePullPolicy: Always              #When ever this files runs, image will get pulled
+         ports:                               #Mention port
+         - containerPort: 8080                #internal port
   strategy:                                   #Deployment strategy to make sure zerodowntime
-    type: RollingUpdate
-    rollingUpdate:
+    type: RollingUpdate                       #Two replicasets are mentioned, it creates 2 pods, first pod1 will get updated and then after 2nd
+    rollingUpdate:                            #Rollingupdate policy
       maxSurge: 1
       maxUnavailabe: 1
       
       
       
-## Service.yml
-apiVersion: v1
-kind: Service
-metadata:
-  name: my-service
-  labels:
-    app: webapp
+## Service.yml                               
+apiVersion: v1                               #version of api
+kind: Service                                #mention kind as pod or service or replicaset or deployment etc
+metadata:                                    #provide data
+  name: my-service                           #name for service
+  labels:                                    #label tag
+    app: webapp                              #name that was given in deploy.yml for matching
   
-spec:
-  selector:
+spec:                                        #specifications
+  selector:                                  #selecting webapp label deployment
     app: webapp
     
     
-  ports:
-    - port: 8080
-      targetPort: 8080
+  ports:                                     #Port mapping
+    - port: 8080                             #external port
+      targetPort: 8080                       #internal port
       
-  type: LoadBalancer
+  type: LoadBalancer                         #service type load-balancer
